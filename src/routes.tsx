@@ -5,11 +5,11 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 export const router = createHashRouter([
 	{
-		path: "/home",
+		path: "/",
 		element: <Navbar />,
 		children: [
 			{
-				path: "",
+				path: "home",
 				element: <HomePage />,
 			},
 		],

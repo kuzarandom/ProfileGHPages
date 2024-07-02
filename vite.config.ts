@@ -6,5 +6,5 @@ export default defineConfig({
   build: {
     outDir: "./docs"
   },
-  base: "/ProfileGHPages/"
+  base: "/ProfileGHPages/#home"
 });
