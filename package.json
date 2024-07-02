@@ -1,5 +1,5 @@
 {
-	"homepage": "https://kuzarandom.github.io/",
+	"homepage": "https://kuzarandom.github.io/ProfileGHPages",
 	"name": "portfolio",
 	"private": true,
 	"version": "0.0.0",
@@ -11,7 +11,7 @@
 		"lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
 		"preview": "vite preview",
 		"predeploy": "npm run build",
-		"deploy": "gh-pages -d dist"
+		"deploy": "gh-pages -d docs"
 	},
 	"dependencies": {
 		"@emotion/react": "^11.11.4",
