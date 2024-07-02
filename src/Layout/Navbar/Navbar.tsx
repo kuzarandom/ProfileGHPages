@@ -1,11 +1,11 @@
 import { Container } from "@/components";
 // import React, { useState } from "react";
-import { Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import { useMotionValueEvent, useScroll } from "framer-motion";
 import { useToggle } from "@/utils/useToggle";
 import { clsx } from "clsx";
 import logo from "@/assets/logo.png";
-// import styles from "./style.module.css";
+import styles from "./style.module.css";
 
 const Navbar = () => {
 	const { scrollYProgress } = useScroll();
@@ -41,7 +41,7 @@ const Navbar = () => {
 							height={20}
 						/>
 						<div className="flex justify-between gap-10 font-[500] text-lg">
-							{/* <div className={clsx(styles.navbarBtn)}>Home</div> */}
+							<Link to={"/notfound"}><div className={clsx(styles.navbarBtn)}>Home</div></Link>
 							{/* <div className={clsx(styles.navbarBtn)}>Doc</div> */}
 							{/* <div className={clsx(styles.navbarBtn)}>About</div>
 							<div className={clsx(styles.navbarBtn)}>Home</div> */}

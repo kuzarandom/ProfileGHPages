@@ -5,7 +5,7 @@ import NotFoundPage from "./pages/NotFoundPage";
 
 export const router = createHashRouter([
 	{
-		path: "/",
+		path: "/home",
 		element: <Navbar />,
 		children: [
 			{
@@ -15,7 +15,7 @@ export const router = createHashRouter([
 		],
 	},
 	{
-		path: "/404",
+		path: "/notfound",
 		element: <NotFoundPage />,
 	},
 ]);
