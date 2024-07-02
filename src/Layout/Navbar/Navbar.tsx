@@ -41,7 +41,7 @@ const Navbar = () => {
 							height={20}
 						/>
 						<div className="flex justify-between gap-10 font-[500] text-lg">
-							<Link to={"/notfound"}><div className={clsx(styles.navbarBtn)}>Home</div></Link>
+							<Link to={"/notfound"}><div className={clsx(styles.navbarBtn)}>Error Page</div></Link>
 							{/* <div className={clsx(styles.navbarBtn)}>Doc</div> */}
 							{/* <div className={clsx(styles.navbarBtn)}>About</div>
 							<div className={clsx(styles.navbarBtn)}>Home</div> */}
